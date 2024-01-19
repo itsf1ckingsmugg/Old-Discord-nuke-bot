@@ -5,7 +5,7 @@ from discord import Intents
 
 mode = input("Which mode should it be in? N for nuke, D for display.")
 
-TOKEN = 'MTE4NzEwNjYwNzYyMDk1MjIwOQ.GGMpWh.8jzTkTVfqgI3V84NIXRGZuZV2pVs-XA2NB3rS4'
+TOKEN = 'put token here'
 
 bot = commands.Bot(command_prefix='skib?', intents=Intents.all())
 
